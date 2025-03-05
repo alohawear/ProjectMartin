@@ -1,0 +1,59 @@
+---
+layout: base.njk
+---
+<div class="container">
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ title }}</h1>
+      
+      {% if date %}
+      <div class="post-date">{{ date | date: "%B %d, %Y" }}</div>
+      {% endif %}
+      
+      {% if author %}
+      <div class="post-author">By {{ author }}</div>
+      {% endif %}
+      
+      {% if tags %}
+      <div class="post-tags">
+        {% for tag in tags %}
+          {% if tag != "post" %}
+          <span class="tag">{{ tag }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </header>
+    
+    <div class="post-content">
+      {{ content | safe }}
+    </div>
+    
+    <footer class="post-footer">
+      <div class="post-navigation">
+        {% if collections.posts %}
+          {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+          {% set nextPost = collections.posts | getNextCollectionItem(page) %}
+          
+          <div class="post-nav-previous">
+            {% if previousPost %}
+              <a href="{{ previousPost.url }}" rel="prev">
+                <span>Previous</span>
+                <span>{{ previousPost.data.title }}</span>
+              </a>
+            {% endif %}
+          </div>
+          
+          <div class="post-nav-next">
+            {% if nextPost %}
+              <a href="{{ nextPost.url }}" rel="next">
+                <span>Next</span>
+                <span>{{ nextPost.data.title }}</span>
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </footer>
+  </article>
+</div>

@@ -1,0 +1,67 @@
+{
+  "craft": {
+    "title": "CRAFT",
+    "fullName": "The CRAFT Prompting Framework",
+    "acronym": {
+      "C": "Context",
+      "R": "Role",
+      "A": "Audience",
+      "F": "Format",
+      "T": "Tone"
+    },
+    "description": "Guides educators and students in creating effective prompts for AI tools",
+    "url": "/frameworks/craft/"
+  },
+  "every": {
+    "title": "EVERY",
+    "fullName": "The EVERY Framework for Responsible AI Use",
+    "acronym": {
+      "E": "Evaluate",
+      "V": "Verify",
+      "E": "Engage",
+      "R": "Revise",
+      "Y": "You are responsible"
+    },
+    "description": "A framework ensuring ethical and responsible use of AI-generated content",
+    "url": "/frameworks/every/"
+  },
+  "zeroToInfinity": {
+    "title": "0 to Infinity",
+    "fullName": "0 to Infinity: Student AI Integration Continuum",
+    "levels": [
+      {
+        "name": "AI-Free/AI-Resistant",
+        "description": "Problems designed to be completed without AI"
+      },
+      {
+        "name": "AI-Assisted",
+        "description": "AI used for specific tasks (brainstorming, planning, etc.)"
+      },
+      {
+        "name": "AI-Enhanced",
+        "description": "AI integrated throughout with human oversight"
+      },
+      {
+        "name": "AI-Empowered",
+        "description": "Using AI to create innovative solutions"
+      }
+    ],
+    "description": "A continuum of approaches to student use of AI in learning activities",
+    "url": "/frameworks/zero-infinity/"
+  },
+  "offline": {
+    "title": "OFFLINE",
+    "fullName": "The OFFLINE Framework for Privacy and Safety",
+    "acronym": {
+      "O": "Own It",
+      "F": "Fortify It",
+      "F": "Fine-tune It",
+      "L": "Localize It",
+      "I": "Isolate It",
+      "N": "Nurture It",
+      "E": "Encrypt It"
+    },
+    "description": "Guidance for secure AI data management in educational settings",
+    "url": "/frameworks/offline/"
+  }
+}

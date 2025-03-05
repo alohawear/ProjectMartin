@@ -1,0 +1,28 @@
+{
+  "main": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "About",
+      "url": "/about/"
+    },
+    {
+      "text": "Frameworks",
+      "url": "/frameworks/"
+    },
+    {
+      "text": "Lesson Plans",
+      "url": "/lesson-plans/"
+    },
+    {
+      "text": "Resources",
+      "url": "/resources/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ]
+}

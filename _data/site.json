@@ -1,0 +1,13 @@
+{
+  "title": "Bridge to AI",
+  "description": "AI-integrated lesson plans and frameworks for Nashville Public Schools",
+  "url": "https://bridgetoai.org",
+  "author": "Nathanael Reveal",
+  "email": "info@bridgetoai.org",
+  "social": {
+    "bluesky": "bridgetoai.bsky.social"
+  },
+  "nav": {
+    "includeHome": true
+  }
+}

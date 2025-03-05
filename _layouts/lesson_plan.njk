@@ -1,0 +1,79 @@
+---
+layout: base.njk
+---
+
+<div class="container lesson-plan">
+  <header class="lesson-header">
+    <h1>{{ title }}</h1>
+    <div class="lesson-meta">
+      {% if subject %}
+      <span class="subject">{{ subject }}</span>
+      {% endif %}
+      
+      {% if grade %}
+      <span class="grade">{{ grade }}</span>
+      {% endif %}
+      
+      {% if duration %}
+      <span class="duration">{{ duration }}</span>
+      {% endif %}
+      
+      {% if ai_level %}
+      <span class="ai-level">{{ ai_level }}</span>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if summary %}
+  <div class="lesson-summary">
+    <p>{{ summary }}</p>
+  </div>
+  {% endif %}
+
+  {% if objectives %}
+  <section class="objectives">
+    <h2>Learning Objectives</h2>
+    {{ objectives | safe }}
+  </section>
+  {% endif %}
+
+  {% if materials %}
+  <section class="materials">
+    <h2>Materials</h2>
+    {{ materials | safe }}
+  </section>
+  {% endif %}
+
+  <section class="procedure">
+    <h2>Procedure</h2>
+    {{ content | safe }}
+  </section>
+
+  {% if assessment %}
+  <section class="assessment">
+    <h2>Assessment</h2>
+    {{ assessment | safe }}
+  </section>
+  {% endif %}
+
+  {% if standards %}
+  <section class="standards">
+    <h2>Curriculum Standards</h2>
+    {{ standards | safe }}
+  </section>
+  {% endif %}
+
+  {% if extensions %}
+  <section class="extensions">
+    <h2>Extensions</h2>
+    {{ extensions | safe }}
+  </section>
+  {% endif %}
+
+  {% if teacher_notes %}
+  <section class="teacher-notes">
+    <h2>Teacher Notes</h2>
+    {{ teacher_notes | safe }}
+  </section>
+  {% endif %}
+</div>
