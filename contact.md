@@ -14,14 +14,10 @@ We'd love to hear from you! Whether you have questions about our resources, want
 **Social Media**:
 - Bluesky: [@bridgetoai.bsky.social](https://bsky.app/profile/bridgetoai.bsky.social)
 
-## Join Our Community
+## (Planned) Join Our Community
 
 Are you an educator interested in sharing your experiences with AI in the classroom? Join our community forum where you can connect with other educators, share resources, and learn from one another.
 
-[Join the Community →](https://community.bridgetoai.org)
-
-## Feedback and Suggestions
+## (Planned) Feedback and Suggestions
 
 We're constantly working to improve our resources and make them more useful for educators. If you have feedback or suggestions, please let us know.
-
-[Submit Feedback →](https://forms.bridgetoai.org/feedback)

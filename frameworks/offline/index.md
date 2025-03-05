@@ -14,7 +14,6 @@ The OFFLINE framework provides guidance for secure AI data management when using
 - Deploy AI tools on school-controlled servers when possible
 - Understand the ownership of data processed through AI systems
 - Take responsibility for AI systems used in your educational setting
-- Consider self-hosted or locally-deployed AI options
 - Maintain control over how AI systems are configured and used
 
 ### **F**ortify It: Implement robust security on your AI systems
@@ -36,7 +35,6 @@ The OFFLINE framework provides guidance for secure AI data management when using
 ### **L**ocalize It: Keep the data as close to the student as possible
 
 - Minimize data transmission to external servers
-- Consider edge computing solutions for AI applications
 - Store student data on local or district-controlled infrastructure
 - Understand data flow in AI systems used in classrooms
 - Process student information locally when possible
@@ -46,7 +44,6 @@ The OFFLINE framework provides guidance for secure AI data management when using
 - Implement network segmentation for AI systems
 - Use dedicated environments for AI applications
 - Separate AI systems from core administrative systems
-- Create boundaries between AI tools and student information systems
 - Establish clear data boundaries for AI applications
 
 ### **N**urture It: Iterate on your models with new data and methods
@@ -91,4 +88,4 @@ The OFFLINE framework provides guidance for secure AI data management when using
 4. Recognize the importance of developing independent skills
 5. Report concerns about AI tools or outputs to teachers
 
-The OFFLINE framework helps create educational environments where AI tools enhance learning while maintaining appropriate safeguards for student data and privacy. By implementing these principles, schools can navigate the benefits and challenges of AI integration responsibly.
+The OFFLINE framework was developed by Bridge to AI to help address some of the legal and policy requirements of AI use in an educational setting. It helps create educational environments where AI tools enhance learning while maintaining appropriate safeguards for student data and privacy. By implementing these principles, schools can navigate the benefits and challenges of AI integration responsibly.
