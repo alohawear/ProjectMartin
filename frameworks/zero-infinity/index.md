@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: page.njk
 title: The 0 to Infinity Framework - Bridge to AI
 ---
 

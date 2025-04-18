@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: page.njk
 title: The CRAFT Prompting Framework - Bridge to AI
 ---
 

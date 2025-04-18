@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: page.njk
 title: The EVERY Framework - Bridge to AI
 ---
 
